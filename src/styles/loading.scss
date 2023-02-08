@@ -1,0 +1,30 @@
+@import './app.scss';
+
+.loading {
+    margin: 0 auto;
+    width: 80vw;
+    height: 90vh;
+    margin-top: 4vh;
+}
+.loading__body {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: $mainColorCold1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 12px 0px rgba(3, 20, 45, 0.416)
+}
+.loading__img {
+    height: 300px;
+    width: 300px;
+}
+.loading__title {
+    font-size: 38px;
+    font-weight: $fontWeight600;
+    color: $mainColor;
+    text-shadow: 1px 1px 6px $shadowText1;
+}
