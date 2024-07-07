@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Burger from "./components/Burger";
-import CurrentTemperature from "./components/CurrentTemperature";
-import DailyForecast from "./components/DailyForecast";
-import HourlyForecast from "./components/HourlyForecast";
-import Loading from "./components/Loading";
-import Location from "./components/Location";
+import Burger from "../components/Burger";
+import CurrentTemperature from "../components/CurrentTemperature";
+import DailyForecast from "../components/DailyForecast";
+import HourlyForecast from "../components/HourlyForecast";
+import Loading from "../components/Loading";
+import Location from "../components/Location";
 
-import './styles/app.scss';
+import '../styles/app.scss';
 // import './icons/animations.scss';
 
 let isLoading = true
